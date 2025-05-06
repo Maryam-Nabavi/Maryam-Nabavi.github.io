@@ -1,23 +1,23 @@
 {
-  "name": "Your Name",
+  "name": "Maryam Nabavi",
   "label": "Optional Label",
   "image_path": "img/default-image.png",
   "contact": {
-    "email": "FirstLast@Sample.com",
-    "phone": "123-456-7890",
-    "location": "City, State, Country"
+    "email": "m.nabavi.edu@gmail.com",
+    "phone": "+98939-424-2288",
+    "location": "Tehran, Iran"
   },
   "summary": "A short summary of who you are, your background, experience, and interests to give visitors a quick introduction to you.",
   "base_url": "127.0.0.1:5500",
   "social_links": [
     {
       "label": "Personal Website",
-      "url": "https://sample.com",
+      "url": "https://maryam-nabavi.github.io/",
       "svg_path": "img/globe.svg"
     },
     {
-      "label": "First Social",
-      "url": "https://sample.com",
+      "label": "Linkedin",
+      "url": "https://www.linkedin.com/in/maryam-nabavi-992977363/",
       "svg_path": "img/linkedin.svg"
     },
     {
