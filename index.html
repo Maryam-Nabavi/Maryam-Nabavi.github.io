@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<!----------------------------------------Head v---------------------------------------->    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Maryam Nabavi</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/067aa6577b.js" crossorigin="anonymous"></script>
+</head>
+<!----------------------------------------Head ^---------------------------------------->    
+
+
+<!----------------------------------------Body v----------------------------------------> 
+
+
+<!----------------------------------------Header v---------------------------------------->  
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="index.html#home">
+                    <img src="images/logo.png" class="logo">
+                </a>
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Why me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>B.Sc in Computer Science🌱</p>
+                <h1>Hi, I'm <span>Maryam Nabavi</span><br>from Tehran, Iran🔆</h1>
+            </div>
+        </div>
+    </div>
+<!----------------------------------------Header ^---------------------------------------->
+
+
+<!----------------------------------------About v---------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/mn-AboutMe.png">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Me</h1>
+                    <p>I recently graduated in Computer Science from the University
+                        of Science and Technology of Mazandaran, where I focused my
+                        thesis on diagnosing schizophrenia using CNN algorithms. My
+                        passions lie in machine learning, research, and exploring emerging
+                        technologies. Outside of tech, I'm a dedicated photographer and painter.
+                        I also enjoy walking and seeking out new adventures.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Programming Language</span><br>• Python, C#, Fortran</li>
+                            
+                            <li><span>Languages </span>
+                                <br> • English: Full professional proficiency
+                                <br> • French: Limited working proficiency
+                                <br> • Persian: Native or bilingual proficiency
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>[Nov 22 - Dec 2022] - Executive Committee Membership-(ICSPIS 2022)</span>
+                                <br> • University of Science and Technology of Mazandaran
+                                <br> • The 8th Iranian Conference on Signal Processing and Intelligent Systems (ICSPIS 2022)
+                                <br> • Skills: Team Leadership · Teamwork · Management · Decision-Making · Critical Thinking
+                            </li>
+
+                            <li><span>[Jul 22 - Aug 2022] - Executive Committee Membership-The 53rd Iranian Mathematical Conference</span>
+                                <br> • University of Science and Technology of Mazandaran
+                                <br> • The 53rd Iranian Mathematical Conference
+                                <br> • Skills: Team Leadership · Teamwork · Management · Decision-Making · Critical Thinking
+                            </li>
+
+                        </ul>
+                    </div>                           
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>[2018 - 2023] - B.Sc in Computer Science</span>
+                                <br> • University of Science and Technology of Mazandaran
+                                <br> • Thesis Title: Diagnosing schizophrenia using CNN algorithm (19.5/20.0).
+                                <br> • Supervisor: Prof. Mousa Nazari Panbeh Chouleh
+
+                            </li>
+
+                            <!--
+                            <li><span>Web Development 03</span><br> Web/APP devlopment</li>
+                            <li><span>App development 03</span><br>Building Android/iOS apps</li> 
+                            -->
+                        </ul>
+                    </div>   
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------------------------------About ^---------------------------------------->
+
+
+<!----------------------------------------Services v---------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Core Strengths</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-infinity"></i>
+                <h2>Passionate</h2>
+                <p>
+                    Passion fuels everything I do — it's the spark behind my ideas
+                    and the energy that drives me forward. I don’t just work; I 
+                    immerse myself in what I love, bringing full commitment and heart
+                    to every challenge. This deep connection to my work keeps me curious,
+                    motivated, and always looking for ways to grow. Passion doesn’t just
+                    push me — it gives my effort meaning and turns hard work into purpose.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+                <i class="fas fa-rocket"></i>
+                <h2>Fast-Learner</h2>
+                <p>
+                    I thrive in dynamic environments where there's always something new
+                    to learn. As a fast-learner, I quickly absorb information, adapt to
+                    new tools, and turn challenges into opportunities for growth. This
+                    ability allows me to stay ahead, take initiative, and contribute meaningfully
+                    — even in unfamiliar situations. Learning isn't just a skill for me; it's a mindset
+                    I carry into everything I do.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fas fa-brain"></i>
+                <h2>Creative</h2>
+                <p>
+                    Creativity shapes how I approach problems, design solutions, and express ideas.
+                    I enjoy thinking beyond the obvious and bringing fresh perspectives to every project
+                    I take on. Whether it’s through visual design, strategy, or innovation, I strive to
+                    make my work original and meaningful. For me, creativity isn’t just about imagination
+                    — it’s about turning ideas into impact.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!----------------------------------------Services ^---------------------------------------->
+
+
+<!----------------------------------------portfolio v---------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+
+            <div class="work">
+                <img src="images/Portfolio 001.png">
+                <div class="layer">
+                    <h3>The Watcher in the Woods</h3>
+                    <p> 
+                        A quiet forest scene turns haunting with the subtle presence of a distant figure.
+                    </p>
+                    <a href="works.html"><i class="fas fa-external-link-alt "></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Portfolio 002.png">
+                <div class="layer">
+                    <h3>Current</h3>
+                    <p>A close-up abstraction captures the quiet motion of a hidden world.</p>
+                        <a href="works.html"><i class="fas fa-external-link-alt "></i></a>
+                </div>
+            </div>
+
+            
+            <div class="work">
+                <img src="images/Portfolio 003.png">
+                <div class="layer">
+                    <h3>Undercurrent</h3>
+                    <p>A shifting surface of water conceals the quiet energy moving beneath it.</p>
+                        <a href="works.html"><i class="fas fa-external-link-alt "></i></a>
+                </div>
+            </div>
+            
+
+        </div>
+        <a href="works.html" class="btn">See more</a>
+    </div>
+</div>
+<!----------------------------------------portfolio ^----------------------------------------> 
+
+
+<!----------------------------------------Contact v----------------------------------------> 
+<div id="contact"></div>
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fas fa-paper-plane"></i> m.nabavi.edu@gmail.com</p>
+                <!-- <p> <i class="fas fa-phone-square-alt"></i> +98 939 424 2288</p> -->
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/maryam-nabavi-992977363/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Maryam-Nabavi"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/mrymnbv"><i class="fab fa-instagram"></i></a> 
+                </div>
+
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+            <p>© 2025 MARYAM NABAVI. ALL RIGHTS RESERVED.</p>
+    </div>
+
+<!----------------------------------------Contact ^----------------------------------------> 
+    
+
+<!----------------------------------------Javascript v----------------------------------------> 
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+   
+  <script>
+     var sidemenu = document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemenu.style.right = "0";
+     }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+
+  </script>
+<!----------------------------------------Javascript ^----------------------------------------> 
+</body>
+<!----------------------------------------Body ^----------------------------------------> 
+</html>
